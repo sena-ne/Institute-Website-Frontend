@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learnify Higher Education Institute - Courses</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <h1>Learnify Higher Education Institute</h1>
+                </div>
+                <button class="nav-toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html" class="active">Courses</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h2>Our Courses</h2>
+                <p>Explore our diverse range of undergraduate and graduate programs</p>
+            </div>
+        </section>
+
+        <!-- Course Filter -->
+        <section class="course-filter">
+            <div class="container">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-category="all">All Courses</button>
+                    <button class="filter-btn" data-category="undergraduate">Undergraduate</button>
+                    <button class="filter-btn" data-category="graduate">Graduate</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Courses Section -->
+        <section class="courses">
+            <div class="container">
+                <div class="courses-grid" id="coursesGrid">
+                    <!-- Courses will be loaded dynamically from JSON -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Learnify Higher Education Institute</h3>
+                    <p>Empowering minds, shaping futures since 1974</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>Email: <a href="mailto:info@leanifyinstitute.edu">info@learnifyinstitute.edu</a></p>
+                    <p>Phone: <a href="tel:+94771344675">+94 771 344 675</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Learnify Higher Education Institute. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="courses-data.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+</html>

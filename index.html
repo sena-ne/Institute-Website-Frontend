@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learnify Higher Education Institute — courses, admissions, and contact information.">
+    <title>Learnify Higher Education Institute - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html" class="logo-link" aria-label="Learnify Higher Education Institute">
+                        <img src="assets/logo.svg" alt="Learnify Higher Education Institute logo" class="site-logo">
+                    </a>
+                </div>
+                <div class="brand-name">
+                    <h1>Learnify Higher Education Institute</h1>
+                </div>
+                <button class="nav-toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button id="themeToggle" class="theme-toggle" aria-pressed="false" aria-label="Toggle dark mode"><i class="fa-solid fa-moon"></i></button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section (slideshow) -->
+        <section class="hero">
+            <div class="hero-slider" id="heroSlider">
+                <div class="slide active" style="background-image: url('assets/p1.jpg')"></div>
+                <div class="slide" style="background-image: url('assets/p2.jpg')"></div>
+                <div class="slide" style="background-image: url('assets/p3.jpg')"></div>
+                 <div class="slide" style="background-image: url('assets/p4.jpg')"></div>
+
+                <button class="slider-control prev" id="sliderPrev" aria-label="Previous slide">‹</button>
+                <button class="slider-control next" id="sliderNext" aria-label="Next slide">›</button>
+
+                <div class="slider-indicators" id="sliderIndicators">
+                    <button class="indicator active" data-index="0" aria-label="Go to slide 1"></button>
+                    <button class="indicator" data-index="1" aria-label="Go to slide 2"></button>
+                    <button class="indicator" data-index="2" aria-label="Go to slide 3"></button>
+                </div>
+            </div>
+
+            <div class="hero-content">
+                <h2 style="color: rgb(256, 256, 256);">Shape Your Future with Excellence</h2>
+                <p style="color: rgb(256, 256, 256);">Discover world-class education and endless opportunities at Learnify Higher Education Institute.</p>
+                <a href="courses.html" class="btn btn-primary">Explore Our Courses</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about">
+            <div class="container">
+                <h2>Welcome to Learnify Higher Education Institute</h2>
+                <p>For over 50 years, Learnify has been at the forefront of higher education, providing students with the knowledge, skills, and experiences needed to succeed in a rapidly changing world. Our commitment to academic excellence, research innovation, and student success sets us apart.</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <h3>15,000+</h3>
+                        <p>Students Enrolled</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>500+</h3>
+                        <p>Expert Faculty</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>10+</h3>
+                        <p>Programs Offered</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>95%</h3>
+                        <p>Graduate Employment</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features">
+            <div class="container">
+                <h2>Why Choose Us</h2>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🎓</div>
+                        <h3>Academic Excellence</h3>
+                        <p>Rigorous programs taught by world-renowned faculty members dedicated to your success.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔬</div>
+                        <h3>Research Opportunities</h3>
+                        <p>State-of-the-art facilities and cutting-edge research programs across all disciplines.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🌍</div>
+                        <h3>Global Network</h3>
+                        <p>Connect with students and alumni from over 100 countries around the world.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">💼</div>
+                        <h3>Career Support</h3>
+                        <p>Comprehensive career services and strong industry partnerships for internships and jobs.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta">
+            <div class="container">
+                <h2>Ready to Start Your Journey?</h2>
+                <p>Join thousands of students who have transformed their lives at Learnify Higher Education Institute.</p>
+                <a href="contact.html" class="btn btn-secondary">Get in Touch</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Learnify Higher Education Institute</h3>
+                        <p>Empowering minds, shaping futures since 1974</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                        <p>Email: <a href="mailto:info@leanify.edu">info@learnify.edu</a></p>
+                        <p>Phone: <a href="tel:+15559876543">+94 771 344 675</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                    <p>&copy; 2026 Learnify Higher Education Institute. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="courses-data.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+</html>

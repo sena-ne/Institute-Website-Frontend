@@ -1,0 +1,136 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Bachelor of Computer Science",
+      "type": "Undergraduate",
+      "category": "undergraduate",
+      "description": "Comprehensive program covering software development, algorithms, data structures, and modern computing technologies.",
+      "duration": "4 years",
+      "credits": "120 credits",
+      "image": "assets/courses/cs.jpg",
+      "pricePerYear": "$5,000"
+    },
+    {
+      "id": 2,
+      "title": "Bachelor of Business Administration",
+      "type": "Undergraduate",
+      "category": "undergraduate",
+      "description": "Build strong foundation in business principles, management, marketing, finance, and entrepreneurship.",
+      "duration": "4 years",
+      "credits": "120 credits",
+      "image": "assets/courses/ba.jpg",
+      "pricePerYear": "$4,800"
+    },
+    {
+      "id": 3,
+      "title": "Bachelor of Engineering (Mechanical)",
+      "type": "Undergraduate",
+      "category": "undergraduate",
+      "description": "Study mechanical systems, thermodynamics, materials science, and advanced manufacturing technologies.",
+      "duration": "4 years",
+      "credits": "128 credits",
+      "image": "assets/courses/me.jpg",
+      "pricePerYear": "$5,200"
+    },
+    {
+      "id": 4,
+      "title": "Bachelor of Arts in Psychology",
+      "type": "Undergraduate",
+      "category": "undergraduate",
+      "description": "Explore human behavior, cognitive processes, mental health, and research methodologies in psychology.",
+      "duration": "3 years",
+      "credits": "90 credits",
+      "image": "assets/courses/psy.jpg",
+      "pricePerYear": "$4,200"
+    },
+    {
+      "id": 5,
+      "title": "Bachelor of Science in Nursing",
+      "type": "Undergraduate",
+      "category": "undergraduate",
+      "description": "Prepare for a rewarding career in healthcare with comprehensive clinical training and patient care education.",
+      "duration": "4 years",
+      "credits": "120 credits",
+      "image": "assets/courses/nurse.jpg",
+      "pricePerYear": "$4,500"
+    },
+    {
+      "id": 6,
+      "title": "Bachelor of Fine Arts",
+      "type": "Undergraduate",
+      "category": "undergraduate",
+      "description": "Develop your artistic talents across various mediums including painting, sculpture, digital art, and design.",
+      "duration": "4 years",
+      "credits": "120 credits",
+      "image": "assets/courses/fa.jpg",
+      "pricePerYear": "$3,800"
+    },
+    {
+      "id": 7,
+      "title": "Master of Business Administration (MBA)",
+      "type": "Graduate",
+      "category": "graduate",
+      "description": "Advanced business education focusing on leadership, strategic management, and global business practices.",
+      "duration": "2 years",
+      "credits": "60 credits",
+      "image": "assets/courses/mba.jpg",
+      "pricePerYear": "$8,000"
+    },
+    {
+      "id": 8,
+      "title": "Master of Science in Data Science",
+      "type": "Graduate",
+      "category": "graduate",
+      "description": "Master big data analytics, machine learning, artificial intelligence, and statistical modeling techniques.",
+      "duration": "2 years",
+      "credits": "48 credits",
+      "image": "assets/courses/ds.jpg",
+      "pricePerYear": "$9,500"
+    },
+    {
+      "id": 9,
+      "title": "Master of Public Health",
+      "type": "Graduate",
+      "category": "graduate",
+      "description": "Advanced study in epidemiology, health policy, biostatistics, and community health management.",
+      "duration": "2 years",
+      "credits": "45 credits",
+      "image": "assets/courses/ph.jpg",
+      "pricePerYear": "$6,500"
+    },
+    {
+      "id": 10,
+      "title": "Master of Engineering (Electrical)",
+      "type": "Graduate",
+      "category": "graduate",
+      "description": "Advanced engineering program in electronics, power systems, control systems, and renewable energy.",
+      "duration": "2 years",
+      "credits": "48 credits",
+      "image": "assets/courses/ee.jpg",
+      "pricePerYear": "$8,200"
+    },
+    {
+      "id": 11,
+      "title": "Master of Education (M.Ed)",
+      "type": "Graduate",
+      "category": "graduate",
+      "description": "Enhance your teaching skills and educational leadership through advanced pedagogical training.",
+      "duration": "1.5 years",
+      "credits": "36 credits",
+      "image": "assets/courses/edu.jpg",
+      "pricePerYear": "$6,000"
+    },
+    {
+      "id": 12,
+      "title": "Ph.D. in Computer Science",
+      "type": "Graduate",
+      "category": "graduate",
+      "description": "Conduct cutting-edge research in artificial intelligence, cybersecurity, or distributed systems.",
+      "duration": "4-5 years",
+      "credits": "Research-based",
+      "image": "assets/courses/mcs.jpg",
+      "pricePerYear": "$10,000"
+    }
+  ]
+}
