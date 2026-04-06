@@ -2,12 +2,12 @@
 
 Responsive front-end website for a Higher Education Institute to showcase courses, view course details, and contact the institute. Built with plain HTML, CSS and JavaScript/JSON (no backend required).
 
-## Project Summary
+## 📜 Project Summary
 - Purpose: Provide a static, responsive website that lets students and visitors browse available courses, view detailed course information, and contact the institute.
 - Pages: Home (course listings), Course Details (per-course page or modal), Contact Us (contact form / contact details).
 - Allowed technologies: HTML, CSS, JavaScript and JSON for data.
 
-## Structure & Key Files
+## 📁 Structure & Key Files
 - `index.html` — Home page / course listings.
 - `courses.html` — Course details page template (or per-course view).
 - `contact.html` — Contact page with a form or contact information.
