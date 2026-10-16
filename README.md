@@ -4,21 +4,20 @@ Responsive front-end website for a Higher Education Institute to showcase course
 
 ## 📜 Project Summary
 - Purpose: Provide a static, responsive website that lets students and visitors browse available courses, view detailed course information, and contact the institute.
-- Pages: Home (course listings), Course Details (per-course page or modal), Contact Us (contact form / contact details).
+- Pages: Home (institutional details), Course Details (course listings), Contact Us (contact form / contact details).
 - Allowed technologies: HTML, CSS, JavaScript and JSON for data.
 
 ## 📁 Structure & Key Files
-- `index.html` — Home page / course listings.
+- `index.html` — Home page /  institutional details.
 - `courses.html` — Course details page template (or per-course view).
 - `contact.html` — Contact page with a form or contact information.
 - `styles.css` — Global styles and responsive rules.
 - `script.js` — Client-side JavaScript for data loading, interactivity, and navigation.
-- `courses.json` / `courses-data.js` — Course data (title, code, description, duration, fees, image paths, prerequisites, contact person, etc.).
+- `courses.json` / `courses-data.js` — Course data (id, title, type, category, description, duration, fees, image paths, etc.).
 - `assets/` — Images, icons and other media (e.g., `assets/courses/` for course images).
 
 ## Functional Requirements (implemented)
-- Browse a list of courses on the Home page with summary cards (title, short description, image, call-to-action).
-- Click a course to view full details on `courses.html` (or a dynamic modal): full description, objectives, duration, fees, prerequisites, faculty/instructor, and related courses.
+- Browse a list of courses on the Courses page with summary cards (title, short description, image, call-to-action).
 - Contact page with institute address, phone, email and an optional contact form (form can be client-side-only or use mailto/third-party endpoint).
 - All data loaded from `courses.json` or `courses-data.js` using JavaScript (so content is easy to update without changing HTML).
 
@@ -47,15 +46,15 @@ Example single course object:
 
 ```json
 {
-	"id": "cs101",
-	"title": "Introduction to Computer Science",
-	"shortDescription": "Fundamentals of programming and computing.",
+	"id": "1",
+	"title": "Bachelor of Computer Science",
+	"type": "Undergraduate",
+	"category": "undergraduate",
 	"description": "Full course description, learning outcomes, syllabus...",
-	"duration": "12 weeks",
-	"fees": "$500",
-	"image": "assets/courses/cs101.jpg",
-	"prerequisites": "None",
-	"instructor": "Dr. Example"
+	"duration": "3 years",
+	"credits": "120 credits",
+    "image": "assets/courses/cs.jpg",
+    "pricePerYear": "$5,000"
 }
 ```
 
